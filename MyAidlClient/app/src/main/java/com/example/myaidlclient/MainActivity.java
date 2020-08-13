@@ -13,9 +13,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.myaidlservice.IAidlService;
-import com.example.myaidlservice.IAidlServiceCallback;
+import com.example.myaidllib.IAidlService;
+import com.example.myaidllib.IAidlServiceCallback;
 
 public class MainActivity extends Activity {
 
@@ -114,7 +113,7 @@ public class MainActivity extends Activity {
 		public void handleMessage(Message msg) {
 			switch (msg.what) {
 				case BUMP_MSG:
-					dataTV.setText("Weather: " + String.valueOf(msg.obj) + ", temperature: " + msg.arg1);
+					dataTV.setText("Weather: " + msg.obj + ", temperature: " + msg.arg1);
 					break;
 
 				default:

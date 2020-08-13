@@ -15,6 +15,9 @@ import android.os.RemoteException;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.myaidllib.IAidlService;
+import com.example.myaidllib.IAidlServiceCallback;
+
 public class AidlService extends Service {
 
 	private final String[] wheather = new String[] {

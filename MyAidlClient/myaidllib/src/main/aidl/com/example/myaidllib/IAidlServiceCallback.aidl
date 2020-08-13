@@ -1,4 +1,4 @@
-package com.example.myaidlservice;
+package com.example.myaidllib;
 
 oneway interface IAidlServiceCallback {
 

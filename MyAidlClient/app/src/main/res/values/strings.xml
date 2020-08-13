@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MyAidlClient</string>
 
-    <string name="service_title">AidlService:</string>
+    <string name="service_title">AidlService Controls:</string>
 
     <string name="bind_service">Bind Service</string>
     <string name="unbind_service">Unbind Service</string>

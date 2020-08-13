@@ -1,6 +1,6 @@
-package com.example.myaidlservice;
+package com.example.myaidllib;
 
-import com.example.myaidlservice.IAidlServiceCallback;
+import com.example.myaidllib.IAidlServiceCallback;
 
 interface IAidlService {
 
